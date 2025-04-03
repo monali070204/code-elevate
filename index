@@ -1,0 +1,131 @@
+<!-- Blue Black Team Official Website
+A dedicated platform showcasing our team, projects, and vision.
+(Still a work in progress, bear with us!)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Blue Black Team | Innovate with Us</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <!-- TODO: Add favicon -->
+
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header id="site-header">
+    <div class="site-logo">
+      <img src="logo.jpg" alt="BLUE BLACK TEAM LOGO">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about-us">About</a></li>
+        <li><a href="project.html">Our Projects</a></li>
+        <li><a href="#meet-the-team">Team</a></li>
+        <li><a href="#get-in-touch">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero-section">
+    <CENTER>
+      <h1>Empowering Innovation, Together</h1>
+      <p>We are a passionate team building solutions for the future.</p>
+      <a href="#get-in-touch" class="cta-button">Join Us</a>
+      <!-- Add a hero image or video here -->
+    </CENTER>
+  </section>
+
+  <!-- About Section -->
+  <section id="about-us">
+    <CENTER>
+      <h2>Who We Are</h2>
+      <p>
+        Blue Black Team is a group of creative minds passionate about
+        technology, design, and problem-solving.<br>
+        At our core, we are driven by a singular mission: to leverage the power of technology to solve the world's most
+        pressing challenges, while providing our customers with an unparalleled experience through our products and
+        services.
+
+        We are committed to pushing the boundaries of what's possible, to always staying ahead of the curve, and to
+        relentlessly pursuing innovation and excellence in all that we do.
+
+        Our aim is to empower individuals, businesses, and organizations around the globe with the tools they need to
+        make a meaningful impact, and to do so with unwavering dedication, passion, and integrity.
+      </p>
+      <img src="img1.jpg" alt="how we work">
+      <h1></h1>OUR VALUES</h1>
+      <P>Who we are and what we aim to be are both deeply ingrained in our core values</P>
+      <!-- Add a brief history or mission statement here -->
+    </CENTER>
+  </section>
+  <!-- Team Section -->
+  <section id="meet-the-team">
+    <h2>Meet Our Team</h2>
+    <div class="team-member">
+      <h3>Jane Smith</h3>
+      <p>Lead Developer | Full-stack Engineer</p>
+    </div>
+    
+    <div class="team-member">
+      <h3>Michael Johnson</h3>
+      <p>Product Designer | UI/UX Expert</p>
+    </div>
+    <!-- Add more team members here -->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="get-in-touch">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="social-icons" >
+      <center><br>
+      <a href="https://www.linkedin.com/company/codelevate-agency/"><img src="in.jpg" alt="LinkedIn"></a>
+      <a href="https://www.instagram.com/codelevate.agency/"><img src="ig.jpg" alt="Instagram"></a>
+      <a href="https://www.facebook.com/codelevate.agency"><img src="fb.jpg" alt="Facebook"></a>
+      <a href="https://medium.com/@codelevate"><img src="medium.jpg" alt="medium"></a>
+      </center>
+    </div>
+    <p id="form-message"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h2>Codelevate</h2>
+        <p>Born Studio B.V<br>KVK 85246573</p>
+        <p>Email: <a href="mailto:hello@codelevate.com">hello@codelevate.com</a></p>
+        <p>Address: Piet Mondriaansingel 243,<br>1112 WX, Amsterdam, The Netherlands</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/company/codelevate-agency/"><img src="in.jpg" alt="LinkedIn"></a>
+          <a href="https://www.instagram.com/codelevate.agency/"><img src="ig.jpg" alt="Instagram"></a>
+          <a href="https://www.facebook.com/codelevate.agency"><img src="fb.jpg" alt="Facebook"></a>
+          <a href="https://medium.com/@codelevate"><img src="medium.jpg" alt="medium"></a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#about-us">About us</a></li>
+          <li><a href="project.html">projects</a></li>
+          <li><a href="#get-in-touch">Contact us</a></li>
+          <li><a href="#meet-the-team">Team</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>
